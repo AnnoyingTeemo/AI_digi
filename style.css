@@ -11,14 +11,14 @@ header {
 }
 
 img {
-    width: 45%;
+    width: 50%;
 }
 
 
 body {
     margin: 0;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 #myVideo {
@@ -67,12 +67,12 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #3aaed8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #555;
 }
