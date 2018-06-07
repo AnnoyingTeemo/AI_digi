@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Artifical Intelligence</title>
+</head>
+
+<body>
+        <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="examples.html">Examples</a></li>
+  <li><a href="memes.html">ǝlʇᴉʇ ɐ sᴉ sᴉɥʇ</a></li>
+</ul>
+    <header>Artifical Intelligence</header>
+    <!--  this is a comment 
+    <div class="face">
+    <img src="tinyimages/artificialIntelligence%20small.jpg">
+    </div>
+-->
+
+    <video autoplay muted loop id="myVideo">
+  <source src="vidios/Animation%20Of%20Digital%20Human%20Face.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+    <div class="content">
+        <h1>What is artifical intelligence</h1>
+        <p>Artificial Intelligence is intelligence created artificially, hence the word artificial. Artificial Intelligence or AI allows machines to learn from experience and become closer to thinking for themselves. The term artificial intelligence was first made in 1956 however it was not popularised until recently as computers got faster and smaller.  </p>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+</body>
+</html>
