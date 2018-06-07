@@ -11,14 +11,14 @@ header {
 }
 
 img {
-    width: 50%;
+    width: 45%;
 }
 
 
 body {
     margin: 0;
     font-family: Arial;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #myVideo {
